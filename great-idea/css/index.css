@@ -87,13 +87,14 @@ h1, h2, h3, h4, h5 {
  a{
 	text-decoration: none;
 }
-/* 
-.headerImg{
-	display: flex;
-	flex-grow: grow;
+ 
+.services-header-img{
+	max-width: 100%;
+	height: auto;
+	padding: 1%;
 	margin: 2%;
 	width: 100%;
-} */
+}
 
 .section1 h1{
 	display: flex;
