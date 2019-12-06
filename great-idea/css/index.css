@@ -65,15 +65,13 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-* {
-
-}
 
 .navigation{
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 	color: grey;
+	
 	}
 
 .section1{
@@ -86,24 +84,55 @@ h1, h2, h3, h4, h5 {
 	
 }
 
-.section1 h1 {
+ a{
+	text-decoration: none;;
+}
+
+.headerImg{
 	display: flex;
+	flex-grow: grow;
+	margin: 2%;
+	width: 100%;
+}
+
+.section1 h1{
+	display: flex;
+	justify-content: space-evenly;
 	flex-direction: column;
-	justify-content: center;
 	border: 1px solid green;
 	font-size: 50px;
 	text-align: center;
+	height: 40vh;
 
 }
 
+
+
+/* .section1 h1 div{ 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: 1px solid red;
+	font-size: 14px;
+	
+	
+	*/
+}
+/* 
 .button{
 	font-size: 14px;
 	font-family: "Titillium Web", sans-serif;
 	border: 1px solid black;
 	width: 100px;
-
+*/
 	
 }
+
+.navigation .logo{	
+	border: 1px solid green
+}
+
+
 
 .twoPar{
 	display: flex;
@@ -132,26 +161,44 @@ h1, h2, h3, h4, h5 {
 
 .listOfServices{
 	display: flex;
-	height: 500px;
+	height: 150vh;
 	flex-wrap: wrap	;	
+	justify-content: space-between;
+	padding: 20px;
+	/* border: 1px solid orange; */
 	
 
 }
 
+.services{
+	margin: 2%;
+}
+
 .listOfServices div {
 	display: flex;
-	width: 50%;
-	border: 1px solid red;
-	justify-content: space-between;
-	background-color: lightgrey;
-	
+	flex-direction: column;
+	width: 46%;
+	border: 1px solid black; 
+	background-color: #f3f3ff;
+	margin: 1.5%;
+	padding: 1.1%;
+		
+}
+
+.learnButton{
+	font-size: 14px;
+	font-family: "Titillium Web", sans-serif;
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 100px;
+	background-color: white;
 	
 }
 
 .listOfServes div h4{
 	display: flex;
 	justify-content: center;
-	;
+	align-content: center;
 }
 
 .listOfServices div p{
@@ -159,3 +206,27 @@ h1, h2, h3, h4, h5 {
 	justify-content: center;
 }
 
+.site{
+	margin: 5px;
+}
+
+hr {
+	border: 1px solid black;
+}
+
+.bottomSection{
+	display: flex;
+	justify-content: space-between;
+	margin: 2%;
+	
+}
+
+ul{
+	/* border: 1px solid red; */
+	list-style-type: square;
+	margin-left: 20px;
+}
+
+.copyRight{
+	text-align: center;
+}
